@@ -16,3 +16,7 @@ Blogをデータベースとして文章の自動生成に挑戦する．また�
 - scraping.py: Get sentences from blog.
 - generate_by_markov.py: Sentence generation using markov chain.
 - generate_by_dl.py: Sentence generation using deep learning.
+
+## Reference
+
+- アメブロのブログ記事をスクレイピングで全件取得する方法: http://be-07.hatenablog.com/entry/2016/12/23/012055
