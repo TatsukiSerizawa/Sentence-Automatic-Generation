@@ -6,12 +6,13 @@ Blogをデータベースとして文章の自動生成に挑戦する．また�
 
 - ナンスのBlogをデータセットとして，ナンスっぽい文章を生成する．
 
-## Database
+## Dataset source
 
 - 夏川椎菜オフィシャルブログ「ナンス・アポン・ア・タイム！」
 
 ## Program
 
 - data/: dataset
-- generate_by_markov: Sentence generation using markov chain.
-- generate_by_dl: Sentence generation using deep learning.
+- scraping.py: Get sentences from blog.
+- generate_by_markov.py: Sentence generation using markov chain.
+- generate_by_dl.py: Sentence generation using deep learning.
