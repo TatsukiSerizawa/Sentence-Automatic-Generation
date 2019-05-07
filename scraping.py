@@ -21,6 +21,12 @@ def get_entry_page_list(url):
             entry_list.append(next_page["href"])
             html = next_page["href"]
 
+def get_url(entry_page_list):
+    page_list = []
+    for html in entry_page_list:
+        
+
 
 int if __name__ == "__main__":
-    blog_entry_list = get_entry_page_list(url) # get blog entry list
+    entry_page_list = get_entry_page_list(url)  # get url of blog all entry page list
+    page_list = get_url(entry_page_list)    # get url of entry page
